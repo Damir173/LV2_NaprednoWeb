@@ -1,0 +1,42 @@
+DROP TABLE IF EXISTS diplomski_radovi;
+
+CREATE TABLE `diplomski_radovi` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `naziv_rada` varchar(500) NOT NULL,
+  `tekst_rada` varchar(500) NOT NULL,
+  `link_rada` varchar(500) NOT NULL,
+  `oib_tvrtke` varchar(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=29 DEFAULT CHARSET=utf8mb4;
+
+INSERT INTO diplomski_radovi VALUES("1","Tema 1: Štićenje energetskih transformatora s dijeljenim otpornikom za maloomsko uzemljenje","Od studenta se očekuje samostalno modeliranje punog seta strujnih i naponskih zaštita energetskog transformatora kao samostalne cjeline (50,51,50/51N,87T,27,59,24,81O/U,REF), samostalno modeliranje naponskog regulatora energetskog transformatora u samostalnom radu, modeliranje naponskog regulatora energetskog transformatora u paralelnom radu, obrada pojave udarne struje magnetiziranja u samostalnom i paralelnom radu energetskog transformatora. Osim toga potrebno je napraviti model koji prikazuje","https://stup.ferit.hr/2018/01/31/teme-hops/","95494259952"),
+("2","","","https://stup.ferit.hr/2018/01/31/diplomski-radovi-fpga-2-teme/","s/870061872"),
+("3","","","https://stup.ferit.hr/2018/01/31/diplomski-radovi-fpga-2-teme/","s/870061872"),
+("4","","","https://stup.ferit.hr/2018/01/31/diplomski-radovi-fpga-2-teme/","s/870061872"),
+("5","","","https://stup.ferit.hr/2019/01/21/testiranje-ispravnosti-rada-simoreg-tiristorskog-usmjerivaca/","s/882857265"),
+("6","","","https://stup.ferit.hr/2021/01/29/javna-rasvjeta-u-funkciji-marketing-aktivnosti/","s/051284114"),
+("7","","","https://stup.ferit.hr/2021/01/29/javna-rasvjeta-u-funkciji-marketing-aktivnosti/","s/051284114"),
+("8","","","https://stup.ferit.hr/2021/01/29/javna-rasvjeta-u-funkciji-marketing-aktivnosti/","s/051284114"),
+("9","","","https://stup.ferit.hr/2021/01/29/javna-rasvjeta-u-funkciji-marketing-aktivnosti/","s/051284114"),
+("10","","","https://stup.ferit.hr/2021/01/29/javna-rasvjeta-u-funkciji-marketing-aktivnosti/","s/051284114"),
+("11","","","https://stup.ferit.hr/2021/01/29/javna-rasvjeta-u-funkciji-marketing-aktivnosti/","s/051284114"),
+("12","","","https://stup.ferit.hr/2021/01/29/javna-rasvjeta-u-funkciji-marketing-aktivnosti/","s/051284114"),
+("13","","","https://stup.ferit.hr/2021/01/29/javna-rasvjeta-u-funkciji-marketing-aktivnosti/","s/051284114"),
+("14","","","https://stup.ferit.hr/2021/01/29/javna-rasvjeta-u-funkciji-marketing-aktivnosti/","s/051284114"),
+("15","","","https://stup.ferit.hr/2021/01/29/javna-rasvjeta-u-funkciji-marketing-aktivnosti/","s/051284114"),
+("16","","","https://stup.ferit.hr/2021/01/29/javna-rasvjeta-u-funkciji-marketing-aktivnosti/","s/051284114"),
+("17","","","https://stup.ferit.hr/2021/01/29/javna-rasvjeta-u-funkciji-marketing-aktivnosti/","s/051284114"),
+("18","","","https://stup.ferit.hr/2021/01/29/javna-rasvjeta-u-funkciji-marketing-aktivnosti/","s/051284114"),
+("19","","","https://stup.ferit.hr/2021/01/29/javna-rasvjeta-u-funkciji-marketing-aktivnosti/","s/051284114"),
+("20","","","https://stup.ferit.hr/2021/01/29/javna-rasvjeta-u-funkciji-marketing-aktivnosti/","s/051284114"),
+("21","","","https://stup.ferit.hr/2021/01/29/javna-rasvjeta-u-funkciji-marketing-aktivnosti/","s/051284114"),
+("22","","","https://stup.ferit.hr/2021/01/29/javna-rasvjeta-u-funkciji-marketing-aktivnosti/","s/051284114"),
+("23","","","https://stup.ferit.hr/2021/01/29/javna-rasvjeta-u-funkciji-marketing-aktivnosti/","s/051284114"),
+("24","","","https://stup.ferit.hr/2021/01/29/javna-rasvjeta-u-funkciji-marketing-aktivnosti/","s/051284114"),
+("25","","","https://stup.ferit.hr/2021/01/29/javna-rasvjeta-u-funkciji-marketing-aktivnosti/","s/051284114"),
+("26","","","https://stup.ferit.hr/2021/01/29/javna-rasvjeta-u-funkciji-marketing-aktivnosti/","s/051284114"),
+("27","","","https://stup.ferit.hr/2021/01/29/javna-rasvjeta-u-funkciji-marketing-aktivnosti/","s/051284114"),
+("28","","","https://stup.ferit.hr/2021/01/29/javna-rasvjeta-u-funkciji-marketing-aktivnosti/","s/051284114");
+
+
+
